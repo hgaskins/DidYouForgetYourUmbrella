@@ -11,8 +11,7 @@ import CoreLocation
 
 class ViewController:   UIViewController,
                         WeatherClientDelegate,
-                        CLLocationManagerDelegate,
-                        UITextFieldDelegate {
+                        CLLocationManagerDelegate {
     
     @IBOutlet weak var cityLabel: UILabel!
     @IBOutlet weak var weatherLabel: UILabel!

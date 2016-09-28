@@ -16,6 +16,8 @@ protocol WeatherClientDelegate : class {
 class WeatherClient {
     
     let baseURLOpenWeatherMap = "http://api.openweathermap.org/data/2.5/weather"
+    
+    // TODO: store in keychin? gitignore won't work here and oauth out of scope of the project
     let APIKeyOpenWeatherMap = "9cc1097e246f4f507d2c0cd83c5afdbb"
     
     var weather: Weather?

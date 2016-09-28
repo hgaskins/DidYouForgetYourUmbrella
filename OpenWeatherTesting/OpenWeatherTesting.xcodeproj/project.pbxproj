@@ -60,6 +60,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE2AD37A1D9C46D200BB475D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EED8282B1D95D1A000840382 /* AppDelegate.swift */,
+				EED828321D95D1A000840382 /* Assets.xcassets */,
+				EED828371D95D1A000840382 /* Info.plist */,
+				EED8284B1D96292400840382 /* WeatherClient.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		EE2AD37B1D9C46DB00BB475D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EED8282D1D95D1A000840382 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EE2AD37C1D9C46EA00BB475D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EED8282F1D95D1A000840382 /* Main.storyboard */,
+				EED828341D95D1A000840382 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EE2AD37D1D9C46F100BB475D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EED8284D1D96FE9E00840382 /* Weather.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		EED8281F1D95D1A000840382 = {
 			isa = PBXGroup;
 			children = (
@@ -81,14 +117,10 @@
 		EED8282A1D95D1A000840382 /* OpenWeatherTesting */ = {
 			isa = PBXGroup;
 			children = (
-				EED8282B1D95D1A000840382 /* AppDelegate.swift */,
-				EED8282D1D95D1A000840382 /* ViewController.swift */,
-				EED8282F1D95D1A000840382 /* Main.storyboard */,
-				EED828321D95D1A000840382 /* Assets.xcassets */,
-				EED828341D95D1A000840382 /* LaunchScreen.storyboard */,
-				EED828371D95D1A000840382 /* Info.plist */,
-				EED8284B1D96292400840382 /* WeatherClient.swift */,
-				EED8284D1D96FE9E00840382 /* Weather.swift */,
+				EE2AD37D1D9C46F100BB475D /* Model */,
+				EE2AD37B1D9C46DB00BB475D /* Controller */,
+				EE2AD37C1D9C46EA00BB475D /* View */,
+				EE2AD37A1D9C46D200BB475D /* Utilities */,
 			);
 			path = OpenWeatherTesting;
 			sourceTree = "<group>";
@@ -396,6 +428,7 @@
 				EED828471D95D1A000840382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EED828481D95D1A000840382 /* Build configuration list for PBXNativeTarget "OpenWeatherTestingTests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +437,7 @@
 				EED8284A1D95D1A000840382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

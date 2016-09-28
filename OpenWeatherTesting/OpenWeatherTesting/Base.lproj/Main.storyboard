@@ -116,7 +116,6 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="kgy-A0-Moz" secondAttribute="trailing" id="0il-Fa-XAx"/>
                             <constraint firstItem="AWg-Ou-Rnz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="14t-48-ZoU"/>
-                            <constraint firstItem="a9v-Y7-7k9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8Cf-dz-WoX"/>
                             <constraint firstAttribute="trailing" secondItem="Uye-sy-6fU" secondAttribute="trailing" id="8JK-eZ-aVt"/>
                             <constraint firstItem="k9e-FN-aht" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="C7K-hf-hBc"/>
                             <constraint firstItem="deu-mc-ZgE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CG1-as-wGr"/>
@@ -125,7 +124,6 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="a9v-Y7-7k9" secondAttribute="bottom" id="FDn-4z-9Pg"/>
                             <constraint firstItem="a9v-Y7-7k9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="L2e-CG-jvB"/>
                             <constraint firstItem="Uye-sy-6fU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="MBK-r4-N4k"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="a9v-Y7-7k9" secondAttribute="bottom" id="OGh-IZ-jPs"/>
                             <constraint firstItem="kgy-A0-Moz" firstAttribute="top" secondItem="aQ5-R5-hSH" secondAttribute="bottom" id="QJR-hY-F69"/>
                             <constraint firstAttribute="trailing" secondItem="Oxo-7r-khP" secondAttribute="trailing" id="QLL-4a-J0R"/>
                             <constraint firstAttribute="trailing" secondItem="AWg-Ou-Rnz" secondAttribute="trailing" id="Wxh-Xi-Qv4"/>
@@ -140,17 +138,9 @@
                             <constraint firstItem="kgy-A0-Moz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="p3h-ni-LtV"/>
                             <constraint firstItem="k9e-FN-aht" firstAttribute="top" secondItem="AWg-Ou-Rnz" secondAttribute="bottom" id="pE9-eO-hd3"/>
                             <constraint firstItem="deu-mc-ZgE" firstAttribute="top" secondItem="Oxo-7r-khP" secondAttribute="bottom" id="pUF-wz-jKT"/>
-                            <constraint firstAttribute="trailing" secondItem="a9v-Y7-7k9" secondAttribute="trailing" id="qk3-SX-EjE"/>
                             <constraint firstItem="deu-mc-ZgE" firstAttribute="top" secondItem="Oxo-7r-khP" secondAttribute="bottom" id="qkY-k3-bn3"/>
                             <constraint firstAttribute="trailing" secondItem="aQ5-R5-hSH" secondAttribute="trailing" id="spb-Wi-xJM"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="8Cf-dz-WoX"/>
-                                <exclude reference="qk3-SX-EjE"/>
-                                <exclude reference="OGh-IZ-jPs"/>
-                            </mask>
-                        </variation>
                     </view>
                     <connections>
                         <outlet property="cityLabel" destination="AWg-Ou-Rnz" id="7wS-95-9SX"/>
